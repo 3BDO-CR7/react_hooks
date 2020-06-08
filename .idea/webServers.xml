@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d3e6d8d7-ea3c-4eca-9bd2-b3165c7c1e14" name="Masara" url="http://masarah.aait-sa.com">
+        <fileTransfer host="masarah.aait-sa.com" port="1289" rootFolder="/home/masaraha/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="1289" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="366a0523-1e96-430c-b313-cc3f8bcad2d1" name="aait" url="http://78.46.178.246">
+        <fileTransfer host="78.46.178.246" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e111dea2-c301-4dad-ae63-546a5adacac0" name="shams" url="http://shams.arabsdesign.com">
+        <fileTransfer host="shams.arabsdesign.com" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
